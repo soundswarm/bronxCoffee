@@ -16,7 +16,7 @@ body {
   margin-left: -119px;
 }
 .logo:hover {
-  border: none !important;
+  border-color: #3F200B;
 }
 a {
   text-decoration: none;
