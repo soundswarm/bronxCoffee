@@ -4,8 +4,6 @@ body {
 /*238 x 156px*/
 /*50pt coffe:35pt*/
 .logo {
-  margin-left: auto;
-  margin-right: auto;
   height: 156px;
   width: 238px;
   text-align: center;
@@ -17,12 +15,13 @@ body {
   left: 50%;
   margin-left: -119px;
 }
+.logo:hover {
+  border: none !important;
+}
 a {
   text-decoration: none;
 }
-.active {
-  border: none !important;
-}
+
 .logo-text {
   padding-top: 30px;
 }

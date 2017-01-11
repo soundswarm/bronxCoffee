@@ -4,18 +4,12 @@ class App extends Component {
   componentWillMount() {
     this.state = {focus: false}
   }
-  handleFocus() {
-    this.setState({focus: true})
-  }
-  handleBlur() {
-    this.setState({focus: false})
-  }
+
   render() {
-    let logoClass = this.state.focus? 'logo active': 'logo'
     return (
       <div className="App">
-        <a href="#">
-          <div className={logoClass} onFocus={this.handleFocus.bind(this)} onBlur={this.handleBlur.bind(this)}>
+        <a href="https://bronxcoffee.bigcartel.com">
+          <div className="logo">
             <div className="logo-text">
               <div className="first">
                 BRONX
