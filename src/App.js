@@ -8,7 +8,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <a href="http://bronxcoffee.bigcartel.com">
+        <div className='header'>
+          <span className='about-us'>
+            <a href="#">
+              About Us
+            </a>
+          </span>
+          <span>
+            <a href="http://bronxcoffee.bigcartel.com">
+              Wholesale Orders
+            </a>
+          </span>
+        </div>
+
+        
           <div className="logo">
             <div className="logo-text">
               <div className="first">
@@ -19,7 +32,6 @@ class App extends Component {
               </div>
             </div>
           </div>
-        </a>
       </div>
     );
   }
