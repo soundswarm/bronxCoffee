@@ -3,6 +3,7 @@ body {
 }
 /*238 x 156px*/
 /*50pt coffe:35pt*/
+/*brown #3F200B*/
 .header {
   font-family: 'orator std';
   color: white;
@@ -27,7 +28,7 @@ body {
 }
 
 .logo:hover {
-  border-color: #3F200B;
+  border-color: #000000;
 }
 
 a {
