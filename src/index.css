@@ -1,0 +1,28 @@
+body {
+  background-color: #3F200B;
+}
+
+.logo {
+  margin: auto;
+  height: 285px;
+  width: 435px;
+  text-align: center;
+  color: white;
+  border: solid 3px;
+}
+a {
+  text-decoration: none;
+}
+.logo-text {
+  padding-top: 30px;
+}
+.first {
+  font-family: 'perpetua';
+  font-weight: bold;
+  font-size: 112px;
+}
+
+.second {
+  font-family: 'orator std';
+  font-size: 75px;
+}
